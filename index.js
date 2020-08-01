@@ -48,6 +48,3 @@ function refresh() {
   document.getElementById("tocomplete").innerHTML="";
   document.getElementById("completed").innerHTML="";
 }
-
-
-//put complete back
