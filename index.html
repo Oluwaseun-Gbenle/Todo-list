@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href= "index.css" rel="stylesheet" type="text/css">
+        <script src = "index.js"></script>
+    </head>
+    <body>
+       <div id='container'>
+           <h2 id='header'>My To Do List</h2>
+           <input type="text" placeholder="Title" id="title">
+          <span><input type="text"  id="addTodo">
+            <button id="addbtn" onclick="buttonClick()">Add</button>
+            <i class="fa fa-refresh" id="refresh" onclick="refresh()"></i>
+        </span> 
+         <div id='tocomplete'>
+          
+         </div>
+         <h4 id ="completedtag">Completed</h4>
+         <div id="border"></div>
+         <div id="completed"> </div>
+       </div>   
+        
+    </body>
+</html>

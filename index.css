@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    background-image: url(https://i.pinimg.com/736x/2f/78/e7/2f78e748a0a6da3c40af77e085a001f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width:60%;
+    min-height:100vh;
+    height:100%;
+    margin-top:50px;
+    -webkit-box-shadow: 2px 1px 13px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 13px 5px rgba(0,0,0,0.75);
+    box-shadow: 2px 1px 13px 9px rgba(0,0,0,0.75);
+    
+}
+#header{
+    background-color: teal;
+    text-align:center;
+    font-family:Pacifico,Helvetica, sans-serif;
+    height:45px;
+    margin-top:0;
+    padding-top:20px;
+    font-weight:900;
+}
+#title{
+    text-align: center;
+    width:80%;
+    margin:auto;
+    height:30px;
+    margin-top:-10px;
+    margin-bottom: 0;
+    font-size:25px;
+    font-family:Montserrat,Helvetica, sans-serif;
+    border:none;
+    background-color:inherit;
+}
+#addTodo{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 58%;
+    height:20px;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+@media screen and (max-width: 600px){
+    #addTodo{
+    margin-left: 8%;
+}
+}
+#addbtn{
+    height:25px;
+    background-color: teal;
+    font-family:Montserrat,Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+#tocomplete{
+    margin-left:4%;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Montserrat,Helvetica, sans-serif;
+    height:50%;
+}
+#tocomplete label {
+    padding-right:10px;
+    padding-left: 10px;
+}
+.fa-refresh{
+    cursor: pointer;
+}
+#completedtag{
+    margin-left: 4%;
+    position: relative;
+    bottom:-20px;
+    font-family:Montserrat, Helvetica, sans-serif;
+    
+}
+#border{
+    width:90%;
+    height:6px;
+    background-color: black;
+    margin-left:4%;
+}
+#completed{
+    height:50%;
+    margin-left:4%;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Montserrat,Helvetica, sans-serif;
+    height:50%;
+}
+@media screen and (max-width: 600px){
+    #completed,#tocomplete{
+        font-size:12px;
+    }
+}
