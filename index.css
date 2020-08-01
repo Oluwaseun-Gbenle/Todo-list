@@ -104,4 +104,7 @@ body{
     #completed,#tocomplete{
         font-size:12px;
     }
+    #container{
+        width:90%;
+    }
 }
